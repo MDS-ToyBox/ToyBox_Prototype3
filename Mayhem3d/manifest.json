@@ -1,0 +1,32 @@
+{
+	"Version": 1,
+	"Name":
+	[
+		{
+			"Language": "en",
+			"Text": "Third Person"
+		}
+	],
+	"Description":
+	[
+		{
+			"Language": "en",
+			"Text": "The third person pack features a playable character where the camera is positioned behind and slightly above the character. As the character moves using mouse, keyboard, controller or virtual joystick on a touch device, the camera follows the character, observing from an over-the-shoulder point of view. This perspective emphasizes the main character and is popular in action and adventure games. The example map in the pack contains a several objects that the player can jump upon and a ramp the player can walk up.\n"
+		}
+	],
+	"AssetTypes":
+	[
+		{
+			"Language": "en",
+			"Text": "Animation Sequence, Animation Blueprint, Skeleton, Blend Space 1D, Skeletal Mesh"
+		}
+	],
+	"ClassTypes": "GameMode, Character, SpringArmComponent, CameraComponent, InputComponent",
+	"Category": "BlueprintFeature",
+	"FocusAsset": "/Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview",
+	"Thumbnail": "TP_ThirdPersonBP.png",
+	"Screenshots":
+	[
+		"TP_ThirdPersonBP_Preview.png"
+	]
+}

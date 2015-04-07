@@ -1,0 +1,425 @@
+﻿Log file open, 04/08/15 00:11:28
+LogInit:Display: Running engine for game: Mayhem3d
+LogInit: Version: 4.7.2-2467323+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar  2 2015 23:16:34
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.07-12.11.28:736][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.07-12.11.28:791][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.07-12.11.28:804][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.07-12.11.28:812][  0]LogInit: Object subsystem initialized
+[2015.04.07-12.11.28:814][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.07-12.11.28:814][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.07-12.11.28:819][  0]LogInit: Computer: AORUS_X3
+[2015.04.07-12.11.28:819][  0]LogInit: User: Mike
+[2015.04.07-12.11.28:819][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.07-12.11.28:819][  0]LogInit: High frequency timer resolution =2.338348 MHz
+[2015.04.07-12.11.28:819][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.04.07-12.11.28:819][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.07-12.11.28:819][  0]LogMemory: Process Physical Memory: 45.45 MB used, 45.45 MB peak
+[2015.04.07-12.11.28:819][  0]LogMemory: Process Virtual Memory: 22.34 MB used, 22.34 MB peak
+[2015.04.07-12.11.28:819][  0]LogMemory: Physical Memory: 6430.26 MB used, 16301.10 MB total
+[2015.04.07-12.11.28:819][  0]LogMemory: Virtual Memory: 292.67 MB used, 134217728.00 MB total
+[2015.04.07-12.11.28:855][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 870M (Feature Level 11_0)
+[2015.04.07-12.11.28:855][  0]LogD3D11RHI: Adapter has 6033MB of dedicated video memory, 0MB of dedicated system memory, and 8150MB of shared system memory, 2 output[s]
+[2015.04.07-12.11.28:862][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) Iris(TM) Pro Graphics 5200 (Feature Level 11_0)
+[2015.04.07-12.11.28:862][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2015.04.07-12.11.28:863][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.07-12.11.28:863][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.07-12.11.28:863][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.07-12.11.28:868][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.07-12.11.28:877][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.07-12.11.28:931][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.07-12.11.29:070][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.07-12.11.31:615][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.07-12.11.32:390][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.07-12.11.32:460][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.07-12.11.32:505][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Mike/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.07-12.11.32:505][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mike/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.07-12.11.32:505][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.07-12.11.32:505][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.07-12.11.32:630][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.07-12.11.32:643][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mike/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.07-12.11.32:895][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.07-12.11.32:895][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.07-12.11.33:298][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.07-12.11.33:376][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.07-12.11.34:183][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.07-12.11.34:374][  0]SourceControl: Info Source control is disabled
+[2015.04.07-12.11.34:374][  0]SourceControl: Info Source control is disabled
+[2015.04.07-12.11.34:374][  0]SourceControl: Info Source control is disabled
+[2015.04.07-12.11.34:374][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.07-12.11.34:374][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.07-12.11.34:383][  0]SourceControl: Info Source control is disabled
+[2015.04.07-12.11.34:570][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.04.07-12.11.34:570][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.04.07-12.11.34:651][  0]LogEngine: Initializing Engine...
+[2015.04.07-12.11.36:916][  0]LogInit: XAudio2 using 'SAMSUNG (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.04.07-12.11.37:030][  0]LogInit: FAudioDevice initialized.
+[2015.04.07-12.11.37:065][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.07-12.11.37:086][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Mike/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.07-12.11.37:090][  0]LogInit: Texture streaming: Enabled
+[2015.04.07-12.11.37:174][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.07-12.11.37:174][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.04.07-12.11.37:174][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.04.07-12.11.37:174][  0]LogAnalytics: SetUserId 7973641242ab8daaa1a16697fdb176f2|ccb0c50c0d0e47deab22ca04ebced0f2|16dc805b-9417-485d-b6cb-59eb3a26e502
+[2015.04.07-12.11.37:174][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.07-12.11.37:199][  0]LogInit: Transaction tracking system initialized
+[2015.04.07-12.11.37:356][  0]BlueprintLog: New page: Editor Load
+[2015.04.07-12.11.37:393][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2015.04.07-12.11.37:393][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.07-12.11.37:987][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.07-12.11.38:434][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.07-12.11.38:694][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.07-12.11.38:694][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.07-12.11.38:699][  0]LogConsoleResponse:Display: 
+[2015.04.07-12.11.38:843][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.07-12.11.39:014][  0]SourceControl: Info Source control is disabled
+[2015.04.07-12.11.39:014][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Maps/MiniTDmatch_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.07-12.11.39:015][  0]LightingResults: New page: Lighting Build
+[2015.04.07-12.11.39:030][  0]MapCheck: New page: Map Check
+[2015.04.07-12.11.39:030][  0]LightingResults: New page: Lighting Build
+[2015.04.07-12.11.39:038][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077BA126980
+[2015.04.07-12.11.39:039][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Maps/MiniTDmatch_2.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.39:254][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.39:507][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Blueprints/AbilityController.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.40:243][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Blueprints/DamageTypes/ArcaneDamage.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.40:245][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.40:259][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_100.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.40:451][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Character/Materials/Red/Brawler_Red.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.40:455][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Materials/MegaOrbMatterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.40:468][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Blueprints/Projectiles/HealerOrb.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.40:486][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Blueprints/Projectiles/MageOrb.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.40:491][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Materials/MageOrbMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.40:513][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Blueprints/Projectiles/SlowBall.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.40:517][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Materials/SlowBallMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.40:525][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.40:529][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Blueprints/GameHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.40:580][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Blueprints/Scores.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:235][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Character/Materials/Blue/Brawler_Blue.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:252][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Materials/PlayerMat_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:253][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Materials/PlayerMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:255][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_10.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:256][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_15.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:256][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_20.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:257][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_25.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:258][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_30.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:259][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_35.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:260][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_40.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:261][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_45.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:261][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_5.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:262][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_50.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:263][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_55.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:264][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_60.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:265][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_65.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:265][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_70.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:266][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_75.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:267][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_80.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:268][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_85.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:269][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_90.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.41:269][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Health/Health_95.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.43:464][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Textures/ConcreteDirty0323_1_OCC.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.43:482][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Textures/FloorsHexagonal0028_1_N.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.43:511][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/StarterContent/Materials/M_Skybox_A_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.43:638][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Blueprints/PlayerInterface.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.43:650][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/charge.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.43:651][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/fire_button.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.43:651][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/invisbility.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.43:652][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/lightning.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.43:652][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/Orb.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.43:653][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/plus_crosshair.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.43:654][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/psychic_button.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.43:654][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/UI_health_mana.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.43:655][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/ThirdPersonBP/Textures/UI_health_mana_depleted.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.11.44:429][  0]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.04.07-12.11.44:434][  0]LogBlueprint:Warning: [compiler] Warning [0017.48] Compile of MiniTDmatch_2 successful, but with 1 Warning(s) [in 64 ms]
+[2015.04.07-12.11.44:434][  0]LogBlueprint:Warning: [compiler] Warning [0017.48] Compile of MiniTDmatch_2 successful, but with 2 Warning(s) [in 0 ms]
+[2015.04.07-12.11.44:434][  0]LogBlueprint:Warning: [compiler] Warning [0017.48] Compile of MiniTDmatch_2 successful, but with 3 Warning(s) [in 0 ms]
+[2015.04.07-12.11.44:434][  0]LogBlueprint:Warning: [compiler] Warning [0017.48] Compile of MiniTDmatch_2 successful, but with 4 Warning(s) [in 0 ms]
+[2015.04.07-12.11.44:517][  0]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.04.07-12.11.44:523][  0]LogBlueprint:Warning: [compiler] Warning [0017.57] Compile of MiniTDmatch_2 successful, but with 1 Warning(s) [in 66 ms]
+[2015.04.07-12.11.44:523][  0]LogBlueprint:Warning: [compiler] Warning [0017.57] Compile of MiniTDmatch_2 successful, but with 2 Warning(s) [in 0 ms]
+[2015.04.07-12.11.45:296][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.07-12.11.45:296][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.07-12.11.45:338][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.07-12.11.45:338][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.07-12.11.45:376][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.07-12.11.45:377][  0]LogAIModule: Creating AISystem for world MiniTDmatch_2
+[2015.04.07-12.11.45:377][  0]Cmd: MAP CHECKDEP
+[2015.04.07-12.11.45:377][  0]MapCheck: New page: MiniTDmatch_2 - Apr 8, 2015, 12:11:45 PM
+[2015.04.07-12.11.45:514][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 136.778ms to complete.
+[2015.04.07-12.11.45:514][  0]LogFileHelpers: Loading map 'MiniTDmatch_2' took 6.499
+[2015.04.07-12.11.45:654][  0]LogCollectionManager: Loaded 0 collections in 0.001608 seconds
+[2015.04.07-12.11.45:664][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 1696 classes and 261 folders.
+[2015.04.07-12.11.45:699][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2015.04.07-12.11.45:729][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.07-12.11.45:730][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.07-12.11.45:734][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.07-12.11.45:759][  0]LogLoad: Full Startup: 18.80 seconds (BP compile: 2.41 seconds)
+[2015.04.07-12.11.46:187][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.04.07-12.11.46:349][  0]LogRenderer:Warning: Reallocating scene render targets to support 1008x464 (Frame:2).
+[2015.04.07-12.11.48:408][  6]LogAssetRegistry: Asset discovery search completed in 11.0265 seconds
+[2015.04.07-12.16.20:047][840]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.04.07-12.16.25:999][168]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.04.07-12.16.28:527][314]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Maps/MainMenu.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.16.28:943][314]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.04.07-12.16.28:943][314]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.04.07-12.16.28:943][314]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2015.04.07-12.16.28:943][314]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.07-12.16.28:943][314]LogActorComponent: UnregisterComponent: (/Engine/Transient.AbilityController_0) Not registered. Aborting.
+[2015.04.07-12.16.29:020][314]Cmd: MAP LOAD FILE="../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.07-12.16.29:020][314]LightingResults: New page: Lighting Build
+[2015.04.07-12.16.29:041][314]LoadErrors: New page: Loading map: MainMenu.umap
+[2015.04.07-12.16.29:043][314]MapCheck: New page: Map Check
+[2015.04.07-12.16.29:043][314]LightingResults: New page: Lighting Build
+[2015.04.07-12.16.29:055][314]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077D38C22A0
+[2015.04.07-12.16.29:063][314]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.07-12.16.29:063][314]LogAIModule: Creating AISystem for world MainMenu
+[2015.04.07-12.16.29:087][314]Cmd: MAP CHECKDEP
+[2015.04.07-12.16.29:087][314]MapCheck: New page: MainMenu - Apr 8, 2015, 12:16:29 PM
+[2015.04.07-12.16.29:195][314]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 108.418ms to complete.
+[2015.04.07-12.16.29:196][314]LogFileHelpers: Loading map 'MainMenu' took 0.178
+[2015.04.07-12.16.36:830][750]LogEditorViewport: Clicking Background
+[2015.04.07-12.16.38:242][830]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.07-12.16.38:242][830]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.04.07-12.16.38:279][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.04.07-12.16.38:279][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2015.04.07-12.16.38:279][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2015.04.07-12.16.38:279][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.07-12.16.38:279][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.AbilityController_0) Not registered. Aborting.
+[2015.04.07-12.16.38:294][830]LogPlayLevel: PIE:  Blueprint regeneration took 52 ms (1 blueprints)
+[2015.04.07-12.16.38:294][830]PIE: New page: PIE session: MainMenu (Apr 8, 2015, 12:16:38 PM)
+[2015.04.07-12.16.38:297][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002803s)
+[2015.04.07-12.16.38:298][830]LogPlayLevel: PIE: World Init took: (0.000371s)
+[2015.04.07-12.16.38:298][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.003302s)
+[2015.04.07-12.16.38:343][830]LogWorld: Game class is 'GameMode'
+[2015.04.07-12.16.38:346][830]LogAIModule: Creating AISystem for world MainMenu
+[2015.04.07-12.16.38:346][830]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2015.04.08-00.16.38
+[2015.04.07-12.16.38:347][830]LogWorld: Bringing up level for play took: 0.000836
+[2015.04.07-12.16.38:351][830]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.563
+[2015.04.07-12.16.39:811][912]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077D212C680
+[2015.04.07-12.16.50:255][508]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.04.07-12.16.57:634][907]LogEditorViewport: Clicking Background
+[2015.04.07-12.16.58:609][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.04.07-12.16.58:609][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2015.04.07-12.16.58:609][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
+[2015.04.07-12.16.58:609][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.07-12.16.58:609][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.AbilityController_0) Not registered. Aborting.
+[2015.04.07-12.16.58:626][959]Cmd: MAP LOAD FILE="../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.07-12.16.58:626][959]LightingResults: New page: Lighting Build
+[2015.04.07-12.16.58:648][959]LoadErrors: New page: Loading map: Lobby.umap
+[2015.04.07-12.16.58:648][959]MapCheck: New page: Map Check
+[2015.04.07-12.16.58:648][959]LightingResults: New page: Lighting Build
+[2015.04.07-12.16.58:658][959]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077CFB42AC0
+[2015.04.07-12.16.58:665][959]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.07-12.16.58:665][959]LogAIModule: Creating AISystem for world Lobby
+[2015.04.07-12.16.58:689][959]Cmd: MAP CHECKDEP
+[2015.04.07-12.16.58:689][959]MapCheck: New page: Lobby - Apr 8, 2015, 12:16:58 PM
+[2015.04.07-12.16.58:798][959]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 109.006ms to complete.
+[2015.04.07-12.16.58:798][959]LogFileHelpers: Loading map 'Lobby' took 0.174
+[2015.04.07-12.17.05:555][322]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.07-12.17.05:555][322]PIE: New page: PIE session: Lobby (Apr 8, 2015, 12:17:05 PM)
+[2015.04.07-12.17.05:556][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000310s)
+[2015.04.07-12.17.05:556][322]LogPlayLevel: PIE: World Init took: (0.000385s)
+[2015.04.07-12.17.05:557][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Lobby.Lobby to /Game/Maps/UEDPIE_0_Lobby.Lobby (0.000822s)
+[2015.04.07-12.17.05:591][322]LogWorld: Game class is 'GameMode'
+[2015.04.07-12.17.05:593][322]LogAIModule: Creating AISystem for world Lobby
+[2015.04.07-12.17.05:593][322]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Lobby.Lobby up for play (max tick rate 60) at 2015.04.08-00.17.05
+[2015.04.07-12.17.05:594][322]LogWorld: Bringing up level for play took: 0.000804
+[2015.04.07-12.17.05:596][322]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Lobby -0.191
+[2015.04.07-12.17.08:554][489]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077D38B4E00
+[2015.04.07-12.17.15:274][862]LogEditorViewport: Clicking Background
+[2015.04.07-12.17.22:976][260]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Maps/MainMenu.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.07-12.17.23:018][260]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.04.07-12.17.23:018][260]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_7) Not registered. Aborting.
+[2015.04.07-12.17.23:018][260]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2015.04.07-12.17.23:018][260]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.07-12.17.23:019][260]LogActorComponent: UnregisterComponent: (/Engine/Transient.AbilityController_0) Not registered. Aborting.
+[2015.04.07-12.17.24:517][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Maps/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.07-12.17.24:586][260]LogSavePackage: Save=46.759506ms
+[2015.04.07-12.17.24:586][260]LogSavePackage: Moving '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Saved/Lobby89CF98AF480D1761EA54B9BB1EDDBB3F.tmp' to '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Maps/Lobby.umap'
+[2015.04.07-12.17.24:613][260]LogFileHelpers: Saving map 'Lobby' took 0.217
+[2015.04.07-12.17.24:615][260]Cmd: MAP LOAD FILE="../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.07-12.17.24:615][260]LightingResults: New page: Lighting Build
+[2015.04.07-12.17.24:643][260]LoadErrors: New page: Loading map: MainMenu.umap
+[2015.04.07-12.17.24:664][260]MapCheck: New page: Map Check
+[2015.04.07-12.17.24:664][260]LightingResults: New page: Lighting Build
+[2015.04.07-12.17.24:680][260]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077D9A4B560
+[2015.04.07-12.17.24:680][260]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077D4B0D300
+[2015.04.07-12.17.24:688][260]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.07-12.17.24:688][260]LogAIModule: Creating AISystem for world MainMenu
+[2015.04.07-12.17.24:712][260]Cmd: MAP CHECKDEP
+[2015.04.07-12.17.24:712][260]MapCheck: New page: MainMenu - Apr 8, 2015, 12:17:24 PM
+[2015.04.07-12.17.24:828][260]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 116.141ms to complete.
+[2015.04.07-12.17.24:857][260]LogFileHelpers: Loading map 'MainMenu' took 0.244
+[2015.04.07-12.17.33:246][726]LogEditorViewport: Clicking Background
+[2015.04.07-12.17.33:993][762]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.04.07-12.17.33:993][762]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_9) Not registered. Aborting.
+[2015.04.07-12.17.33:993][762]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_10) Not registered. Aborting.
+[2015.04.07-12.17.33:993][762]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.07-12.17.33:993][762]LogActorComponent: UnregisterComponent: (/Engine/Transient.AbilityController_0) Not registered. Aborting.
+[2015.04.07-12.17.34:016][762]Cmd: MAP LOAD FILE="../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.07-12.17.34:017][762]LightingResults: New page: Lighting Build
+[2015.04.07-12.17.34:037][762]LoadErrors: New page: Loading map: Lobby.umap
+[2015.04.07-12.17.34:059][762]MapCheck: New page: Map Check
+[2015.04.07-12.17.34:059][762]LightingResults: New page: Lighting Build
+[2015.04.07-12.17.34:075][762]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077C06179C0
+[2015.04.07-12.17.34:082][762]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077CFB42C00
+[2015.04.07-12.17.34:083][762]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.07-12.17.34:083][762]LogAIModule: Creating AISystem for world Lobby
+[2015.04.07-12.17.34:106][762]Cmd: MAP CHECKDEP
+[2015.04.07-12.17.34:107][762]MapCheck: New page: Lobby - Apr 8, 2015, 12:17:34 PM
+[2015.04.07-12.17.34:222][762]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 115.255ms to complete.
+[2015.04.07-12.17.34:223][762]LogFileHelpers: Loading map 'Lobby' took 0.208
+[2015.04.07-12.17.39:608][ 59]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.17.39:608][ 59]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.17.39:608][ 59]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.17.39:609][ 59]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.17.39:610][ 59]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Lobby.Lobby:PersistentLevel.Lobby.EventGraph.K2Node_CallFunction_3623 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_3623
+[2015.04.07-12.17.39:610][ 59]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Lobby.Lobby:PersistentLevel.Lobby.EventGraph.K2Node_CallFunction_3623 or K2Node_CallFunction /Game/Menus/MainMenu.MainMenu:EventGraph.K2Node_CallFunction_3623
+[2015.04.07-12.17.39:610][ 59]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3623.EdGraphPin_32381''
+[2015.04.07-12.17.39:611][ 59]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Lobby.Lobby:PersistentLevel.Lobby.EventGraph.K2Node_CallFunction_3623 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_3623
+[2015.04.07-12.17.39:611][ 59]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Lobby.Lobby:PersistentLevel.Lobby.EventGraph.K2Node_CallFunction_3623 or K2Node_CallFunction /Game/Menus/MainMenu.MainMenu:EventGraph.K2Node_CallFunction_3623
+[2015.04.07-12.17.39:611][ 59]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3623.EdGraphPin_32379''
+[2015.04.07-12.17.39:611][ 59]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_305.EdGraphPin_32419''
+[2015.04.07-12.17.39:613][ 59]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/Lobby.Lobby:PersistentLevel.Lobby.EventGraph.K2Node_VariableSet_861 or K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/AbilityController.AbilityController:EventGraph.K2Node_VariableSet_861
+[2015.04.07-12.17.39:613][ 59]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_861.EdGraphPin_32403''
+[2015.04.07-12.17.39:615][ 59]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/Lobby.Lobby:PersistentLevel.Lobby.EventGraph.K2Node_VariableSet_861 or K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/AbilityController.AbilityController:EventGraph.K2Node_VariableSet_861
+[2015.04.07-12.17.39:615][ 59]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_861.EdGraphPin_32407''
+[2015.04.07-12.17.41:508][172]LogEditorTransaction: Undo Move Node
+[2015.04.07-12.17.46:039][413]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.04.07-12.17.47:292][480]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.04.07-12.17.48:611][557]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.07-12.17.48:612][557]LogPlayLevel: [PIE] Compiling Lobby before PIE...
+[2015.04.07-12.17.48:676][557]LogPlayLevel: PIE:  Blueprint regeneration took 65 ms (1 blueprints)
+[2015.04.07-12.17.48:676][557]PIE: New page: PIE session: Lobby (Apr 8, 2015, 12:17:48 PM)
+[2015.04.07-12.17.48:680][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003022s)
+[2015.04.07-12.17.48:680][557]LogPlayLevel: PIE: World Init took: (0.000423s)
+[2015.04.07-12.17.48:680][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Lobby.Lobby to /Game/Maps/UEDPIE_0_Lobby.Lobby (0.003561s)
+[2015.04.07-12.17.48:731][557]LogWorld: Game class is 'GameMode'
+[2015.04.07-12.17.48:733][557]LogAIModule: Creating AISystem for world Lobby
+[2015.04.07-12.17.48:734][557]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Lobby.Lobby up for play (max tick rate 60) at 2015.04.08-00.17.48
+[2015.04.07-12.17.48:735][557]LogWorld: Bringing up level for play took: 0.000922
+[2015.04.07-12.17.48:735][557]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.04.07-12.17.48:739][557]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Lobby 0.952
+[2015.04.07-12.17.48:768][557]LogRenderer:Warning: Reallocating scene render targets to support 1128x656 (Frame:357).
+[2015.04.07-12.17.52:544][774]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077CE90AC00
+[2015.04.07-12.17.56:894][ 34]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Menus'
+[2015.04.07-12.18.01:271][279]BlueprintLog: New page: Compile LobbyWidget
+[2015.04.07-12.18.01:352][279]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077D9A496C0
+[2015.04.07-12.18.01:353][279]BlueprintEditorCompileResults: Info [0394.40] Compile of LobbyWidget successful! [in 81 ms]
+[2015.04.07-12.18.02:058][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menus/LobbyWidget" FILE="../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Menus/LobbyWidget.uasset" SILENT=true
+[2015.04.07-12.18.02:076][315]LogSavePackage: Save=15.370681ms
+[2015.04.07-12.18.02:076][315]LogSavePackage: Moving '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Saved/LobbyWidget9266EC9B4F8E9D04EFA2E2B627C0D2BB.tmp' to '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Menus/LobbyWidget.uasset'
+[2015.04.07-12.18.04:675][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Maps/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.07-12.18.04:761][458]LogSavePackage: Save=58.354874ms
+[2015.04.07-12.18.04:761][458]LogSavePackage: Moving '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Saved/Lobby1DF2B30143D10CA01A4FF8804486EF2F.tmp' to '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Content/Maps/Lobby.umap'
+[2015.04.07-12.18.05:357][488]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.07-12.18.05:357][488]LogPlayLevel: [PIE] Compiling Lobby before PIE...
+[2015.04.07-12.18.05:419][488]LogPlayLevel: PIE:  Blueprint regeneration took 62 ms (1 blueprints)
+[2015.04.07-12.18.05:419][488]PIE: New page: PIE session: Lobby (Apr 8, 2015, 12:18:05 PM)
+[2015.04.07-12.18.05:423][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003421s)
+[2015.04.07-12.18.05:424][488]LogPlayLevel: PIE: World Init took: (0.000432s)
+[2015.04.07-12.18.05:424][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Lobby.Lobby to /Game/Maps/UEDPIE_0_Lobby.Lobby (0.004000s)
+[2015.04.07-12.18.05:458][488]LogWorld: Game class is 'GameMode'
+[2015.04.07-12.18.05:460][488]LogAIModule: Creating AISystem for world Lobby
+[2015.04.07-12.18.05:460][488]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Lobby.Lobby up for play (max tick rate 60) at 2015.04.08-00.18.05
+[2015.04.07-12.18.05:461][488]LogWorld: Bringing up level for play took: 0.000786
+[2015.04.07-12.18.05:463][488]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Lobby -0.324
+[2015.04.07-12.18.12:391][893]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077D867A160
+[2015.04.07-12.19.02:520][880]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.19.02:520][880]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.19.02:522][880]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_6:LobbyWidget_C_4.WidgetTree_52.CanvasPanel_107 or CanvasPanel /Game/Menus/LobbyWidget.LobbyWidget_C:WidgetTree_51.CanvasPanel_107
+[2015.04.07-12.19.02:522][880]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_6:LobbyWidget_C_4.WidgetTree_52.CanvasPanel_107 or CanvasPanel /Game/Menus/LobbyWidget.SKEL_LobbyWidget_C:WidgetTree_50.CanvasPanel_107
+[2015.04.07-12.19.02:522][880]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_6:LobbyWidget_C_4.WidgetTree_52.CanvasPanel_107 or CanvasPanel /Engine/Transient.REINST_SKEL_LobbyWidget_C_17:WidgetTree_39.CanvasPanel_107
+[2015.04.07-12.19.02:522][880]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_6:LobbyWidget_C_4.WidgetTree_52.CanvasPanel_107 or CanvasPanel /Engine/Transient.World_6:LobbyWidget_C_3.WidgetTree_49.CanvasPanel_107
+[2015.04.07-12.19.02:522][880]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_6:LobbyWidget_C_4.WidgetTree_52.CanvasPanel_107 or CanvasPanel /Game/Menus/LobbyWidget.LobbyWidget_C:WidgetTree_48.CanvasPanel_107
+[2015.04.07-12.19.02:522][880]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_6:LobbyWidget_C_4.WidgetTree_52.CanvasPanel_107 or CanvasPanel /Game/Menus/LobbyWidget.LobbyWidget_C:WidgetTree_46.CanvasPanel_107
+[2015.04.07-12.19.02:522][880]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_6:LobbyWidget_C_4.WidgetTree_52.CanvasPanel_107 or CanvasPanel /Game/Menus/LobbyWidget.SKEL_LobbyWidget_C:WidgetTree_39.CanvasPanel_107
+[2015.04.07-12.19.02:522][880]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_6:LobbyWidget_C_4.WidgetTree_52.CanvasPanel_107 or CanvasPanel /Game/Menus/LobbyWidget.LobbyWidget:WidgetTree_27.CanvasPanel_107
+[2015.04.07-12.19.02:522][880]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_6:LobbyWidget_C_4.WidgetTree_52.CanvasPanel_107.CanvasPanelSlot_195) from referencer (Button /Engine/UMG/Editor/Transient.Button_168).  Import failed...
+[2015.04.07-12.19.02:522][880]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_107.CanvasPanelSlot_195''
+[2015.04.07-12.19.06:004][ 78]LogEditorTransaction: Undo Move Widget
+[2015.04.07-12.20.43:265][705]LogEditorTransaction: Undo Add Widget
+[2015.04.07-12.21.19:888][781]Warning: Unable to find function null in object null for delegate (found class: Image)
+[2015.04.07-12.23.00:052][682]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.23.00:052][682]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.23.00:714][718]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.23.00:714][718]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.23.01:557][765]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.23.01:558][765]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.23.02:521][819]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.23.02:521][819]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.23.03:267][860]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.23.03:267][860]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.23.03:746][885]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.23.03:747][885]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.23.04:223][910]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.23.04:223][910]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.07-12.26.53:929][419]LogEditorTransaction: Undo Edit Size Rule
+[2015.04.07-12.28.06:837][632]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077D4B0D8A0
+[2015.04.07-12.28.06:837][632]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.048
+[2015.04.07-12.28.06:889][632]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Menus/LobbyWidget] ([1] browsable assets)...
+[2015.04.07-12.28.06:935][632]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menus/LobbyWidget]
+[2015.04.07-12.28.06:939][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menus/LobbyWidget" FILE="../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Saved/Autosaves/Game/Menus/LobbyWidget_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.07-12.28.07:085][632]LogSavePackage: Save=138.972900ms
+[2015.04.07-12.28.07:085][632]LogSavePackage: Moving '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Saved/LobbyWidget_Auto1C111EA614F64EC8DE0542AA6AD78F076.tmp' to '../../../../../../Users/Mike/Desktop/prototype 3/Mayhem3d/Saved/Autosaves/Game/Menus/LobbyWidget_Auto1.uasset'
+[2015.04.07-12.28.07:091][632]LogFileHelpers: Auto-saving content packages took 0.253
+[2015.04.07-12.28.38:788][495]LogEditorTransaction: Undo Move Widget
+[2015.04.07-12.28.38:791][495]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.04.07-12.28.38:796][495]LogCrashTracker: 
+
+
+[2015.04.07-12.28.42:046][495]LogCrashTracker: 
+
+
+[2015.04.07-12.28.42:046][495]LogWindows: === Critical error: ===
+Assertion failed: IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Runtime\Core\Public\Templates\SharedPointer.h] [Line: 658] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x00007fff58cf606c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FOutputDeviceWindowsError::Serialize() (0x00007fff2b358014) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformoutputdevices.cpp:95]
+UE4Editor-Core.dll!FOutputDevice::Logf__VA() (0x00007fff2b1d7818) + 159 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:144]
+UE4Editor-Core.dll!FDebug::AssertFailed() (0x00007fff2b1b8b17) + 62 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:224]
+UE4Editor-UMG.dll!UButton::SynchronizeProperties() (0x00007fff29e01251) + 82 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\umg\private\components\button.cpp:52]
+UE4Editor-UMG.dll!UWidget::PostEditChangeProperty() (0x00007fff29de106a) + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\umg\private\components\widget.cpp:394]
+UE4Editor-CoreUObject.dll!UObject::PostEditUndo() (0x00007fff2ea2922e) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\obj.cpp:375]
+UE4Editor-UnrealEd.dll!FTransaction::Apply() (0x00007fff23279d93) + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\editortransaction.cpp:292]
+UE4Editor-UnrealEd.dll!UTransBuffer::Undo() (0x00007fff232ce80a) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\editortransaction.cpp:620]
+UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,TTypeWrapper<void> __cdecl(void)>::Execute() (0x00007fff29250751) + 32 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,void __cdecl(void)>::ExecuteIfSafe() (0x00007fff292540d6) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:388]
+UE4Editor-Slate.dll!FUICommandList::ConditionalProcessCommandBindings() (0x00007fff2ac166d6) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:192]
+UE4Editor-Slate.dll!FUICommandList::ProcessCommandBindings() (0x00007fff2ac6317c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:136]
+UE4Editor-UnrealEd.dll!FBaseToolkit::ProcessCommandBindings() (0x00007fff23b3351e) + 10 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\toolkits\basetoolkit.cpp:77]
+UE4Editor-UnrealEd.dll!SStandaloneAssetEditorToolkitHost::OnKeyDown() (0x00007fff23b3005b) + 83 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\toolkits\sstandaloneasseteditortoolkithost.cpp:336]
+UE4Editor-Slate.dll!<lambda_01b95f45d99b75c93c453dee9d82570e>::operator()() (0x00007fff2abfc872) + 38 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3581]
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FKeyEvent,<lambda_01b95f45d99b75c93c453dee9d82570e> >() (0x00007fff2abb6e4d) + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:202]
+UE4Editor-Slate.dll!FEventRouter::RouteAlongFocusPath<FEventRouter::FBubblePolicy,<lambda_01b95f45d99b75c93c453dee9d82570e>,FKeyEvent>() (0x00007fff2abb894a) + 52 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:184]
+UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() (0x00007fff2ac63e6d) + 93 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3582]
+UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() (0x00007fff2ac53798) + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3517]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() (0x00007fff2b2b35f0) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1229]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() (0x00007fff2b2a5cce) + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1669]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() (0x00007fff2b2b4cf0) + 41 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:742]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() (0x00007fff2b2a3132) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:604]
+USER32.dll!UnknownFunction (0x00007fff5ac22434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007fff5ac22297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() (0x00007fff2b353e66) + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:774]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff7a13200a9) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launchengineloop.cpp:2233]
+UE4Editor.exe!GuardedMain() (0x00007ff7a131267c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff7a13126ea) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff7a1322219) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff7a1323159) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007fff5b6c16ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007fff5ba4e954) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007fff5ba4e954) + 0 bytes [UnknownFile:0]
+
+
+[2015.04.07-12.28.42:135][495]LogExit: Executing StaticShutdownAfterError
+[2015.04.07-12.28.42:140][495]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.04.07-12.28.42:140][495]Log file closed, 04/08/15 00:28:42
